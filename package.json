@@ -1,0 +1,38 @@
+{
+	"name": "eslint-config-tmaito",
+	"version": "1.2.3",
+	"description": "eslint config for tmaito",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/zmh7057/eslint-config-tmaito.git"
+	},
+	"keywords": [
+		"eslint",
+		"config",
+		"rules"
+	],
+	"author": "menghan.zhu@outlook.com",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/zmh7057/eslint-config-tmaito/issues"
+	},
+	"homepage": "https://github.com/zmh7057/eslint-config-tmaito#readme",
+	"dependencies": {
+		"eslint-config-tmaito-base": "^1.0.7",
+		"eslint-plugin-jsx-a11y": "^6.2.3",
+		"eslint-plugin-react": "^7.16.0",
+		"eslint-plugin-react-hooks": "^2.3.0"
+	},
+	"devDependencies": {},
+	"peerDependencies": {
+		"eslint-plugin-react": "^7.16.0",
+		"eslint-plugin-react-hooks": "^2.3.0"
+	},
+	"engines": {
+		"node": ">= 6"
+	}
+}
